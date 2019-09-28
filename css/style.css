@@ -1,0 +1,58 @@
+/*Reset*/
+
+*{
+	margin: 0;
+	font-size: 100%;
+	font-weight: normal;
+	box-sizing: border-box;
+	border: none;
+	outline: none;
+}
+img{
+	max-width: 100%;
+}
+ul{
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+h2{
+	font-size: 1.5em; 
+	color: #333;
+}
+p{
+	font-size: 1em;
+	color: #7777;
+}
+/*Cabeçalho*/
+.cabecalho{
+	width: 100%;
+	float: left;
+	padding: 50px 8%;
+	background-color: #13c7ae;
+}
+.logo a{
+	width: 221px;
+	height: 60px;
+	float: left;
+	background: url(../img/logo.png) no-repeat;
+	font-size: 0;
+}
+.cabecalho form{
+	width: 30%;
+	float: right;
+}
+.cabecalho input[type="text"]{
+	width: 85%;
+	float: left;
+	padding: 15px 10px;
+}
+.cabecalho button{
+	width: 15%;
+	float: right;
+	padding: 15px; 10px;
+	background-color: #0cae98;
+	color: #fff;
+	cursor: pointer;
+}
