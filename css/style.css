@@ -1,5 +1,4 @@
 /*Reset*/
-
 *{
 	margin: 0;
 	font-size: 100%;
@@ -47,6 +46,7 @@ p{
 	width: 85%;
 	float: left;
 	padding: 15px 10px;
+	border-radius: 5px 0 0 5px;
 }
 .cabecalho button{
 	width: 15%;
@@ -55,4 +55,42 @@ p{
 	background-color: #0cae98;
 	color: #fff;
 	cursor: pointer;
+	border-radius: 0 5px 5px 0;
 }
+/*Menu*/
+.menu{
+	width: 100%;
+	float: left;
+	background-color: #000;
+	padding: 18px 8%;
+}
+.menu li{
+	float: left;
+}
+.menu li a{
+	color: #9d9d9d;
+	margin-right: 25px;
+}
+.menu li a:hover{
+	color: #fff;
+}
+/*Social icons*/
+.social-icons{
+	float:right;
+}
+.social-icons a{
+	color: #fff;
+	float: left;
+	margin-left: 12px;
+}
+.btn-facebook:hover{
+	color: #3b5998;
+}
+.btn-twitter:hover{
+	color: #54a4d6;
+}
+.btn-google:hover{
+	color: #d73d32;
+}
+
+
