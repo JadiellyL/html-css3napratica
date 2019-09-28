@@ -2,25 +2,13 @@
 <html lang="pt-br">
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Praticando Html e Css3</title>
 	<link rel="stylesheet" type="text/css" href="fontawesome-free-5.11.2-web/css/all.css">
+	<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-
-	<header class="cabecalho">
-		<h1 class="logo">
-			<a href="index.html" title="Praticando html e css3">Praticando Html e Css3</a>
-		</h1>
-
-		<form method="post">
-			<input type="text" placeholder="Faça uma busca">
-			<button>
-				<i class="fa fa-search fa-lg"></i>
-			</button>
-		</form>
-
-	</header>
 
 	<nav class="menu">
 		<ul>
@@ -36,10 +24,53 @@
 		</div>
 	</nav>
 
+	<header class="cabecalho">
+		<!--h1 class="logo">
+			<a href="index.html" title="Praticando html e css3">Praticando Html e Css3</a>
+		</h1>
+
+		<form method="post">
+			<input type="text" placeholder="Faça uma busca">
+			<button>
+				<i class="fa fa-search fa-lg"></i>
+			</button>
+		</form-->
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		  <ol class="carousel-indicators">
+		    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+		  </ol>
+		  <div class="carousel-inner">
+		    <div class="carousel-item active">
+		      <img class="d-block w-100" src="img/img03.jpg" alt="Primeiro Slide">
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="img/img01.jpg" alt="Segundo Slide">
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="img/img02.jpg" alt="Terceiro Slide">
+		    </div>
+		  </div>
+		  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Anterior</span>
+		  </a>
+		  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Próximo</span>
+		  </a>
+		</div>
+
+	</header>
+
+	
+
 	<main class="principal">
 		<article class="sobre">
 			<h2>Sobre nós</h2>
 			<img src="img/sobre.jpg" alt="Praticando Html e css3">
+			<div>
 			<p>
 				Lorem ipsum egestas tortor facilisis egestas elementum laoreet, orci bibendum at quisque mauris ligula. lacus libero dui lacinia himenaeos mollis ultrices litora curabitur potenti pretium eleifend, eget pulvinar dapibus nisi sollicitudin bibendum non diam mollis sit. venenatis vel sit phasellus tincidunt placerat nam lacinia malesuada non, vitae lectus ac taciti eu conubia malesuada fringilla, aenean dictum turpis hac orci vestibulum in netus. turpis consectetur duis lobortis massa magna blandit, auctor condimentum orci etiam sem accumsan primis, vitae vel sollicitudin nisl aenean. fames fringilla ac placerat blandit integer condimentum vulputate viverra consequat, aliquet arcu ipsum at nibh donec varius lectus nibh, rhoncus sem cursus ipsum quisque per aptent auctor.
 			</p>
@@ -78,5 +109,13 @@
 	<footer class="rodape">
 		<p>@JadeLima - Todos os direitos reservados.</p>
 	</footer>
+
+	<script src="bootstrap/js/jquery-3.4.1.min.js"></script>
+  	<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript">
+		$('.carousel').carousel({
+		  interval: 2000
+		});
+	</script>
 </body>
 </html>

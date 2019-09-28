@@ -29,7 +29,7 @@ p{
 	width: 100%;
 	float: left;
 	padding: 50px 8%;
-	background-color: #13c7ae;
+	background-color: #204060; 
 }
 .logo a{
 	width: 221px;
@@ -61,7 +61,7 @@ p{
 .menu{
 	width: 100%;
 	float: left;
-	background-color: #000;
+	background-color: #19334d;
 	padding: 18px 8%;
 }
 .menu li{
@@ -147,7 +147,7 @@ p{
 .newsletter{
 	width: 100%;
 	float: left;
-	background-color: #000;
+	background-color: #204060;
 	padding: 50px 8%;
 }
 .newsletter h3{
@@ -185,9 +185,18 @@ p{
 .rodape{
 	width: 100%;
 	float: left;
-	background-color: #13c7ae;
+	background-color:  #19334d;
 	padding: 20px 8%;
 }
 .rodape p{
 	color: #fff;
+}
+/*carrousel*/
+#carouselExampleIndicators img{
+	width: 100%;
+	height: 300px;
+}
+
+.container {
+	background-color: blue;
 }
