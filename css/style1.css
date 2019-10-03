@@ -1,0 +1,99 @@
+*{
+	font-family: 'Roboto', serif;
+}
+.menu1{
+	
+	background: linear-gradient(#19334d,rgb(25, 51, 77,.7));
+}
+.menu1 li{
+	float: left;
+}
+.menu1 li a{
+	color: #bbc0c4;
+}
+.menu1 li a:hover{
+	color: #fff;
+}
+nav button{
+	background-color:  #6599cd;
+}
+.cabecalho form{
+	float: right;
+}
+.cabecalho input[type="text"]{
+	
+	float: left;
+	border-radius: 5px 0 0 5px;
+}
+
+ul{
+	list-style: none;
+}
+.newsletter{
+	width: 100%;
+	float: left;
+	background: linear-gradient(#204060,rgb(32, 64, 96,.7));
+	color: #fff;
+	text-align: center;
+}
+.newsletter p{
+	font-size: 1.2em;
+	color: #fff;
+}
+/*Rodapé*/
+.rodape{
+	width: 100%;
+	float: left;
+	background-color:  #19334d;
+	padding: 20px 8%;
+	color: #fff;
+	text-align: center;
+}
+.onde-estamos{
+	width: 100%;
+}
+.sessao{
+	background-color: #204060 !important;
+	color: #fff !important;
+}
+#contato, #servicos, #produtos, #contato, #newsletter{
+	padding: 50px 8% !important;
+	text-align: center;
+}
+.contato{
+	text-align: left !important;
+}
+.contato h2{
+	text-align: center;
+}
+form{
+	position: center;
+}
+.cabecalho input[type="text"]{
+	width: 85%;
+	float: left;
+	padding: 15px 10px;
+	border-radius: 5px 0 0 5px;
+}
+
+.cardsestilo{
+	background: linear-gradient(#19334d,rgb(25, 51, 77,.7));
+	color: #fff;
+	border-top-right-radius: 30px;
+	margin-bottom: 5px;
+}
+.cardsestilo h5{
+	color: #00ff00 !important;
+}
+.cardsestilo h6{
+	color: gray !important;
+}
+.cardsestilo img{
+	border-radius: 5px;
+}
+.cardsestilo a{
+	color: #fff;
+}
+.slide1 h1{
+	float: left;
+}

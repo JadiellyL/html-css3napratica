@@ -3,28 +3,45 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Praticando Html e Css3</title>
+	<title>Site Consultoria Contábil Online</title>
 	<link rel="stylesheet" type="text/css" href="fontawesome-free-5.11.2-web/css/all.css">
 	<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style1.css">
 </head>
 <body>
 
-	<nav class="menu">
-		<ul>
-			<li><a href="">Home</a></li>
-			<li><a href="">Produtos</a></li>
-			<li><a href="">Serviços</a></li>
-			<li><a href="">Contato</a></li>
-		</ul>
-		<div class="social-icons">
+	<nav class="navbar navbar-expand-lg text-uppercase navbar-light fixed-top menu1">
+		<a class="navbar-brand" href="#"></a>
+		<button class="navbar-toggler" type="button" data-toggler="collapse" data-target="navbarSite">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSite">
+			<ul>
+				<li class="nav-item"><a class="nav-link" href="#home"><i class="fa fa-home fa-lg"></i></a></li>
+				<li class="nav-item"><a class="nav-link" href="#servicos">Nossos Serviços</a></li>
+				<li class="nav-item"><a class="nav-link" href="#produtos">Sobre nós</a></li>
+				<li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+			</ul>
+		</div>
+
+		<!--div class="cabecalho">
+			<form method="post">
+			<input type="text" placeholder="Faça uma busca">
+			<button>
+				<i class="fa fa-search fa-lg"></i>
+			</button>
+			</form>
+		</div-->
+
+		<!---div class="social-icons">
 			<a href="#" class="btn-facebook"><i class="fab fa-facebook-f fa-lg"></i></a>
 			<a href="#" class="btn-twitter"><i class="fab fa-twitter fa-lg"></i></i></a>
 			<a href="#" class="btn-google"><i class="fab fa-google fa-lg"></i></a>
-		</div>
+		</div-->
 	</nav>
 
-	<header class="cabecalho">
+	<header class="cabecalho" id="home">
 		<!--h1 class="logo">
 			<a href="index.html" title="Praticando html e css3">Praticando Html e Css3</a>
 		</h1>
@@ -40,16 +57,50 @@
 		    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 		    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
 		    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+
 		  </ol>
 		  <div class="carousel-inner">
 		    <div class="carousel-item active">
-		      <img class="d-block w-100" src="img/img03.jpg" alt="Primeiro Slide">
+		    	<div class="carousel-caption d-none d-md-block slide1">
+			    <h1>Vai abrir a sua empresa?</h1>
+			    <p>Simplificamos tudo para você.</p>
+			    <button type="button" class="btn btn-lg btn-warning">Abrir empresa</button>
+			  </div>
+		      <img class="d-block w-100" src="img/img01.jpg" alt="Primeiro Slide">
+		      
 		    </div>
 		    <div class="carousel-item">
-		      <img class="d-block w-100" src="img/img01.jpg" alt="Segundo Slide">
+		      <img class="d-block w-100" src="img/img02.jpg" alt="Segundo Slide">
+		       <div class="carousel-caption d-none d-md-block slide2">
+			    <h1>Imagem slide 2</h1>
+			    <button type="button" class="btn btn-warning">Saiba mais</button>
+			  </div>
 		    </div>
+
 		    <div class="carousel-item">
-		      <img class="d-block w-100" src="img/img02.jpg" alt="Terceiro Slide">
+		    	<div class="carousel-caption d-none d-md-block">
+			    <h1>Imagem slide 3</h1>
+			    <button type="button" class="btn btn-warning">Saiba mais</button>
+			  </div>
+		      <img class="d-block w-100" src="img/img03.jpg" alt="Terceiro Slide">
+		    </div>
+
+		    <div class="carousel-item">
+		    	<div class="carousel-caption d-none d-md-block">
+			    <h1>Imagem slide 4</h1>
+			    <button type="button" class="btn btn-warning">Saiba mais</button>
+			  </div>
+		      <img class="d-block w-100" src="img/img04.jpg" alt="Quarto Slide">
+		    </div>
+
+		    <div class="carousel-item">
+		    	<div class="carousel-caption d-none d-md-block">
+			    <h1>Imagem slide 5</h1>
+			    <button type="button" class="btn btn-warning">Saiba mais</button>
+			  </div>
+		      <img class="d-block w-100" src="img/img05.jpg" alt="Quinto Slide">
 		    </div>
 		  </div>
 		  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -64,50 +115,185 @@
 
 	</header>
 
-	
-
-	<main class="principal">
-		<article class="sobre">
-			<h2>Sobre nós</h2>
-			<img src="img/sobre.jpg" alt="Praticando Html e css3">
-			<div>
-			<p>
-				Lorem ipsum egestas tortor facilisis egestas elementum laoreet, orci bibendum at quisque mauris ligula. lacus libero dui lacinia himenaeos mollis ultrices litora curabitur potenti pretium eleifend, eget pulvinar dapibus nisi sollicitudin bibendum non diam mollis sit. venenatis vel sit phasellus tincidunt placerat nam lacinia malesuada non, vitae lectus ac taciti eu conubia malesuada fringilla, aenean dictum turpis hac orci vestibulum in netus. turpis consectetur duis lobortis massa magna blandit, auctor condimentum orci etiam sem accumsan primis, vitae vel sollicitudin nisl aenean. fames fringilla ac placerat blandit integer condimentum vulputate viverra consequat, aliquet arcu ipsum at nibh donec varius lectus nibh, rhoncus sem cursus ipsum quisque per aptent auctor.
-			</p>
+	<section class="page-section bg-light servicos"  id="servicos">
+		
+			<h2><strong>Serviços que você encontra aqui</strong></h2>
 			<br>
-			<br>
-			<p>
-				Condimentum eu morbi tortor taciti libero hac metus enim vivamus leo, donec ultricies gravida curabitur aenean ullamcorper rhoncus suspendisse cras viverra, velit ornare integer vivamus posuere sit in aenean fermentum. nulla curabitur vivamus luctus imperdiet vel sodales platea, mattis nisl aptent lectus tellus fames potenti, vehicula phasellus pellentesque per vulputate per. sagittis ut lacinia condimentum proin luctus sem convallis est quam elit, vel dictum nostra eget venenatis iaculis tempus hac risus quis, proin tristique taciti integer libero dolor pharetra justo mi. et massa class faucibus phasellus turpis fringilla diam facilisis dictumst lacinia quam, tristique metus ante gravida tortor conubia viverra tincidunt quam. 
-			</p>
-		</article>
-		<aside class="onde-estamos">
-			<h2>Onde estamos</h2>
-			<p>
-				Rua 13 B - Conjunto Industrial, Maracanaú-CE
-			</p>
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3980.8650646182055!2d-38.596781585762!3d-3.839129944819321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c7526c3b281653%3A0xc9c05b8c65067593!2sR.%2013%20B%2C%2060%20-%20Industrial%2C%20Maracana%C3%BA%20-%20CE%2C%2061925-300!5e0!3m2!1spt-BR!2sbr!4v1569693464811!5m2!1spt-BR!2sbr" >
-			</iframe>
-			<h2>Contatos</h2>
-			<ul>
-				<li><i class="fa fa-phone"></i> (85) 98925-2408</li>
-				<li><i class="fab fa-whatsapp"></i> (85) 98925-2408</li>
-				<li><i class="fa fa-envelope"></i> m.jadiellydlima@gmail.com</li>
-			</ul>
-		</aside>
-	</main>
+			<div class="container row text-justify">
+			<!--img class="img-fluid" src="img/sobre.jpg" alt="Praticando Html e css3">
+			<div class="text-justify">
+				<p>
+					Lorem ipsum egestas tortor facilisis egestas elementum laoreet, orci bibendum at quisque mauris ligula. lacus libero dui lacinia himenaeos mollis ultrices litora curabitur potenti pretium eleifend, eget pulvinar dapibus nisi sollicitudin bibendum non diam mollis sit. venenatis vel sit phasellus tincidunt placerat nam lacinia malesuada non, vitae lectus ac taciti eu conubia malesuada fringilla, aenean dictum turpis hac orci vestibulum in netus. turpis consectetur duis lobortis massa magna blandit, auctor condimentum orci etiam sem accumsan primis, vitae vel sollicitudin nisl aenean. fames fringilla ac placerat blandit integer condimentum vulputate viverra consequat, aliquet arcu ipsum at nibh donec varius lectus nibh, rhoncus sem cursus ipsum quisque per aptent auctor.
+				</p>
+				<br>
+				<p>
+					Condimentum eu morbi tortor taciti libero hac metus enim vivamus leo, donec ultricies gravida curabitur aenean ullamcorper rhoncus suspendisse cras viverra, velit ornare integer vivamus posuere sit in aenean fermentum. nulla curabitur vivamus luctus imperdiet vel sodales platea, mattis nisl aptent lectus tellus fames potenti, vehicula phasellus pellentesque per vulputate per. sagittis ut lacinia condimentum proin luctus sem convallis est quam elit, vel dictum nostra eget venenatis iaculis tempus hac risus quis, proin tristique taciti integer libero dolor pharetra justo mi. et massa class faucibus phasellus turpis fringilla diam facilisis dictumst lacinia quam, tristique metus ante gravida tortor conubia viverra tincidunt quam. 
+				</p>
+			</div-->
+			<div class="container card cardsestilo banner1" style="width: 18rem;">
+				  
+			  <div class="card-body">
+			  	<img class="card-img-top" src="img/banner1.jpg" alt="Imagem de capa do card">
+			    <h5 class="card-title">Vai abrir a sua empresa?</h5>
+			    <h6 class="card-subtitle text-muted">Nós te ajudamos</h6>
 
-	<section class="newsletter">
-		<h3>News Letter</h3>
-		<p>Receba nossas promoções por email.</p>
-		<form method="post">
-			<input type="text" placeholder="Seu nome">
-			<input type="email" placeholder="Seu email">
-			<button>Cadastrar</button>
-		</form>
+			    <p class="card-text">
+
+			    	Lorem ipsum egestas tortor facilisis egestas elementum laoreet, orci bibendum at quisque mauris ligula. lacus libero dui lacinia himenaeos mollis ultrices litora curabitur potenti pretium eleifend, eget pulvinar dapibus nisi sollicitudin bibendum non diam mollis sit. 
+				</p>
+			    <a href="#" class="card-link">Leia mais</a>
+			   
+			  </div>
+
+			</div>
+
+			<div class="container card cardsestilo banner2" style="width: 18rem;">
+				
+			  <div class="card-body">
+			  	 <img class="card-img-top" src="img/banner2.jpg" alt="Imagem de capa do card">
+			    <h5 class="card-title">Não sabe o que fazer com a empresa?</h5>
+			    <h6 class="card-subtitle text-muted">Nós te ajudamos</h6>
+			    <p class="card-text">
+
+			    	Lorem ipsum egestas tortor facilisis egestas elementum laoreet, orci bibendum at quisque mauris ligula. lacus libero dui lacinia himenaeos mollis ultrices litora curabitur potenti pretium eleifend, eget pulvinar dapibus nisi sollicitudin bibendum non diam mollis sit. 
+				</p>
+			    <a href="#" class="card-link">Leia mais</a>
+			    
+			  </div>
+
+			</div>
+
+			<div class="container card cardsestilo banner3" style="width: 18rem;">
+				 
+			  <div class="card-body">
+			  	 <img class="card-img-top" src="img/banner3.jpg" alt="Imagem de capa do card">
+			    <h5 class="card-title">Primeiros passos para o sucesso!</h5>
+			    <h6 class="card-subtitle text-muted">Nós te ajudamos</h6>
+			    <p class="card-text">
+
+			    	Lorem ipsum egestas tortor facilisis egestas elementum laoreet, orci bibendum at quisque mauris ligula. lacus libero dui lacinia himenaeos mollis ultrices litora curabitur potenti pretium eleifend, eget pulvinar dapibus nisi sollicitudin bibendum non diam mollis sit. 
+				</p>
+			    <a href="#" class="card-link">Leia mais</a>
+			    
+			  </div>
+
+			</div>
+
+		
+		</div>
 	</section>
 
-	<footer class="rodape">
-		<p>@JadeLima - Todos os direitos reservados.</p>
+	<section class="page-section sessao text-dark mb-0 produtos" id="produtos" principal">
+		
+		<div class="container">
+			<h2><strong>Sobre Nós</strong></h2>
+			<img class="img-fluid" src="img/sobre.jpg" alt="Praticando Html e css3">
+			<div class="text-justify">
+				<p>
+						Lorem ipsum egestas tortor facilisis egestas elementum laoreet, orci bibendum at quisque mauris ligula. lacus libero dui lacinia himenaeos mollis ultrices litora curabitur potenti pretium eleifend, eget pulvinar dapibus nisi sollicitudin bibendum non diam mollis sit. venenatis vel sit phasellus tincidunt placerat nam lacinia malesuada non, vitae lectus ac taciti eu conubia malesuada fringilla, aenean dictum turpis hac orci vestibulum in netus. turpis consectetur duis lobortis massa magna blandit, auctor condimentum orci etiam sem accumsan primis, vitae vel sollicitudin nisl aenean. fames fringilla ac placerat blandit integer condimentum vulputate viverra consequat, aliquet arcu ipsum at nibh donec varius lectus nibh, rhoncus sem cursus ipsum quisque per aptent auctor.
+				</p>
+				<br>
+				<p>
+						Condimentum eu morbi tortor taciti libero hac metus enim vivamus leo, donec ultricies gravida curabitur aenean ullamcorper rhoncus suspendisse cras viverra, velit ornare integer vivamus posuere sit in aenean fermentum. nulla curabitur vivamus luctus imperdiet vel sodales platea, mattis nisl aptent lectus tellus fames potenti, vehicula phasellus pellentesque per vulputate per. sagittis ut lacinia condimentum proin luctus sem convallis est quam elit, vel dictum nostra eget venenatis iaculis tempus hac risus quis, proin tristique taciti integer libero dolor pharetra justo mi. et massa class faucibus phasellus turpis fringilla diam facilisis dictumst lacinia quam, tristique metus ante gravida tortor conubia viverra tincidunt quam. 
+				</p>
+			</div>
+		</div>
+			<!--aside class="col-12 col-sm-4 bg-dark container onde-estamos">
+				<div class="row">
+					<h3>Onde estamos</h3>
+					<p>
+						Rua 13 B - Conjunto Industrial, Maracanaú-CE
+					</p>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3980.8650646182055!2d-38.596781585762!3d-3.839129944819321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c7526c3b281653%3A0xc9c05b8c65067593!2sR.%2013%20B%2C%2060%20-%20Industrial%2C%20Maracana%C3%BA%20-%20CE%2C%2061925-300!5e0!3m2!1spt-BR!2sbr!4v1569693464811!5m2!1spt-BR!2sbr" >
+					</iframe>
+				</div>
+				<div class="row">
+					<h2>Contatos</h2>
+					<ul>
+						<li><i class="fa fa-phone"></i> (85) 98925-2408</li>
+						<li><i class="fab fa-whatsapp"></i> (85) 98925-2408</li>
+						<li><i class="fa fa-envelope"></i> m.jadiellydlima@gmail.com</li>
+					</ul>
+				</div>
+			</aside-->
+		
+	</section>
+
+
+	<section class="page-section contato"  id="contato">
+		<div class="col-lg-8 mx-auto container">
+			<h2><strong>Contate-me</strong></h2>
+				<form>
+					<div class="form-group">
+				    	<label for="exampleInputName">Nome</label>
+				    	<input type="text" class="form-control form-control-lg" id="exampleInputName" placeholder="Seu nome">
+				    </div>
+				  	<div class="form-group">
+				    	<label for="exampleInputEmail1">Email</label>
+				    	<input type="email" class="form-control form-control-lg" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Seu email">
+				   		 <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
+				 	</div>
+				  	<div class="form-group">
+				    	<label for="exampleInputPhone">Telefone</label>
+				    	<input type="phone" class="form-control form-control-lg" id="exampleInputPhone" placeholder="Telefone">
+				  	</div>
+				  	<div class="form-group">
+					    <label for="exampleFormControlTextarea1">Mensagem</label>
+					    <textarea class="form-control form-control-lg" id="exampleFormControlTextarea1" rows="3"></textarea>
+					 </div>
+
+				  	<!--div class="form-group form-check">
+				    	<input type="checkbox" class="form-check-input" id="exampleCheck1">
+				    	<label class="form-check-label" for="exampleCheck1">Clique em mim</label>
+				  	</div-->
+				 	 <button type="submit" class="btn btn-primary">Enviar</button>
+				</form>
+		</div>
+	</section>
+
+	<section class="footer text-center newsletter" id="newsletter">
+		<div class="container">
+	      <div class="row">
+
+	       
+	        <div class="col-lg-4 mb-5 mb-lg-0">
+	          <h4 class="text-uppercase mb-4">Localização</h4>
+	          <p class="lead mb-0">Av, I Nº 057, TORRE II, SALA 919, BUSINESS PLACE 
+	            <br>Jereissati I, CE, 61900-410</p>
+	            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3980.711483920259!2d-38.61845098576175!3d-3.871929845002091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c75313d5ca38c1%3A0x21f7e6cdb4442b98!2sWB%20BUSINESS!5e0!3m2!1spt-BR!2sbr!4v1569812948806!5m2!1spt-BR!2sbr" frameborder="0" style="border:1px blue;" allowfullscreen=""></iframe>
+	            
+	        </div>
+
+	        
+	        <div class="col-lg-4 mb-5 mb-lg-0">
+	          <h4 class="text-uppercase mb-4">Redes Sociais</h4>
+	          <a class="btn btn-outline-light btn-social mx-1" href="#">
+	            <i class="fab fa-fw fa-facebook-f"></i>
+	          </a>
+	          <a class="btn btn-outline-light btn-social mx-1" href="#">
+	            <i class="fab fa-fw fa-twitter"></i>
+	          </a>
+	          <a class="btn btn-outline-light btn-social mx-1" href="#">
+	            <i class="fab fa-fw fa-linkedin"></i>
+	          </a>
+	        </div>
+
+	        
+	        <div class="col-lg-4">
+	          	<h4 class="text-uppercase mb-4">Contatos</h4>
+	         	<p class="lead mb-0"></p>
+					<ul>
+						<li><i class="fa fa-phone"></i> (85) 99784-2450</li>
+						<li><i class="fab fa-whatsapp"></i> (85) 99784-2450</li>
+						<li><i class="fa fa-envelope"></i> willamebrandao@gmail.com</li>
+					</ul>
+	     	 </div>
+	     	</div>
+    	</div>
+	</section>
+		
+	<footer class="page-section mb-0 rodape">
+		<p>@2019 Contabilidade - Todos os direitos reservados.</p>
 	</footer>
 
 	<script src="bootstrap/js/jquery-3.4.1.min.js"></script>

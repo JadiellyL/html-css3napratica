@@ -25,6 +25,7 @@ p{
 	color: #7777;
 }
 /*Cabeçalho*/
+/*
 .cabecalho{
 	width: 100%;
 	float: left;
@@ -57,21 +58,23 @@ p{
 	cursor: pointer;
 	border-radius: 0 5px 5px 0;
 }
+*/
 /*Menu*/
-.menu{
+
+.menu1{
 	width: 100%;
 	float: left;
 	background-color: #19334d;
 	padding: 18px 8%;
 }
-.menu li{
+.menu1 li{
 	float: left;
 }
-.menu li a{
-	color: #9d9d9d;
+.menu1 li a{
+	color: #bbc0c4;
 	margin-right: 25px;
 }
-.menu li a:hover{
+.menu1 li a:hover{
 	color: #fff;
 }
 /*Social icons*/
@@ -175,7 +178,6 @@ p{
 }
 .newsletter button{
 	width: 18%;
-	background-color: #fff;
 	padding: 15px 10px;
 	border-radius: 5px;
 	float: right;
